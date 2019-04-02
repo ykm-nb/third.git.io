@@ -1,4 +1,12 @@
 $(function () {
+    
+    // 头部
+    $(".navbar-toggle").on("click", function () {
+        $(".navbar-nav").css("display","block")
+    });
+    
+    
+    // 滚动条
     $(window).scroll(function(){
         $(".anchor").css("top",($(window).height() - $('.anchor').outerHeight())/2 + $(document).scrollTop())
     })

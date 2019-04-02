@@ -16,20 +16,23 @@ a:hover{
 }
 
 @media screen and (max-width: 770px){
+    /*头部小字隐藏*/
     .header-hide{
         display: none;
     }
-    .footer_warp{
-        min-width: 0;
-        padding: 4px 0;
-        background-color: #1f2d3d;
+    .enter > a{
+        display: block;
+        transform: scale(1.2 );
     }
-    .footer_warp > a, .footer_warp > span{
-        padding: 0 15px;
-    }
-    .footer_warp > span{
-        font-size: 14px;
-    }
+    /*!*底部*!*/
+    /*.footer_warp{*/
+        /*min-width: 0;*/
+        /*padding: 4px 0;*/
+        /*background-color: #1f2d3d;*/
+    /*}*/
+    /*.footer_warp > a > img, .footer_warp > span{*/
+        /*display: none;*/
+    /*}*/
 }
 
 
@@ -110,15 +113,33 @@ header ul .header-name > img{
 .container > form{
     margin: 90px auto;
     padding: 0 15px;
-    /*width: 380px;*/
     width: 100%;
     max-width: 380px;
 }
 
-form > label{
-    display: block;
-    font-size: 0;
+form > div{
+    position: relative;
 }
+
+/*警告*/
+form > div > .warn{
+    position: absolute;
+    bottom: -17px;
+    font-size: 12px;
+    color: #db5858;
+    display: none;
+}
+
+.warn > i {
+    display: inline-block;
+    font-size: 14px;
+    transform: translate(0,1px);
+}
+
+/*form > label{*/
+    /*display: block;*/
+    /*font-size: 0;*/
+/*}*/
 
 .form-group > input{
     height: 45px;
@@ -126,7 +147,8 @@ form > label{
     border: 1px solid #49a9ee;
     font-size: 16px;
     text-indent: 1em;
-    outline: none;
+    /*box-shadow: none;*/
+    /*outline: none;*/
 }
 
 .form-group > input::placeholder{
