@@ -56,6 +56,10 @@ body{
         font-size: 12px;
         padding: 0;
     }
+    .cancel-alert > div > button{
+        width: 48%;
+        display: inline-block;
+    }
 
     /*锚点*/
     .anchor{
@@ -161,7 +165,7 @@ body{
     .bottom-info > p{
         margin-bottom: 20px;
     }
-    .bottom-info > .bottom-btn{
+    .bottom-info > .bott    om-btn{
         margin-top: 38px;
     }
     .bottom-info > .bottom-btn > button{
@@ -179,7 +183,12 @@ body{
 /*内容*/
 .container{
     margin-top: 70px;
+    padding: 0;
     overflow: hidden;
+}
+
+.container .row{
+    margin: 0;
 }
 
 .container > .container-title{
