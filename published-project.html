@@ -12,7 +12,7 @@
     <!--清除默认样式-->
     <link rel="stylesheet" href="./css/initialize.css">
     <!--阿里图库-->
-    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1108524_riu2k8fwoef.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1108524_18yoapo863j.css">
     <!--bootstrap-->
     <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <!--头部，尾部，锚点-->
@@ -26,29 +26,36 @@
 </head>
 <body>
 <!--头部-->
-<header class="index-head mobile-white">
-    <nav class="navbar navbar-default" role="navigation">
+<header id="nav-white">
+    <nav class=" navbar navbar-default mobile-none-767" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand navbar-logo" href="developer.html">
-                    <img class="mobile-none" src="./img/logo_white.png" alt="logo">
-                    <img class="mobile-block" src="./img/logo_blue.png" alt="logo">
+                    <img src="./img/logo_blue.png" alt="logo">
                 </a>
                 <a class="navbar-brand navbar-hide" href="find_demand.html">项目列表</a>
                 <a class="navbar-brand navbar-hide" href="demand.html">项目发布</a>
                 <a class="navbar-brand navbar-hide" href="help/help.html">帮助</a>
+                <p class="seek pull-left"><i class="iconfont icon-search-1-copy"></i> <input type="text" placeholder="搜索工作室"></p>
             </div>
-            <div class="navbar-collapse pull-right" id="example-navbar-collapse">
+            <div class="navbar-collapse pull-right">
                 <ul class="nav navbar-nav mobile">
-
                     <li class="dropdown nav-oneself">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <i class="iconfont icon-huabanfuben1"></i>
                             <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">早上好，杨先生</a></li>
-                            <li class="divider"></li>
+                            <li class="mobile-none-767"><a href="#">
+                                <i class="iconfont icon-chazhaobiaodanliebiao"></i>
+                                项目列表
+                            </a></li>
+                            <li class="divider mobile-none-767"></li>
+                            <li class="mobile-none-767"><a href="#">
+                                <i class="iconfont icon-fabu1"></i>
+                                项目发布
+                            </a></li>
+                            <li class="divider mobile-none-767"></li>
                             <li><a href="userinfo.html">
                                 <i class="iconfont icon-geren"></i>
                                 个人中心
@@ -62,11 +69,16 @@
                                 <i class="iconfont icon-xiangmu"></i>
                                 我发布的项目
                             </a></li>
-                            <li><a href="#">
+                            <li><a href="businessscope.html">
                                 <i class="iconfont icon-lanzi"></i>
-                                我的报价单
+                                广告位申请
                             </a></li>
                             <li class="divider"></li>
+                            <li class="mobile-none-767"><a href="help/help.html">
+                                <i class="iconfont icon-bangzhu"></i>
+                                帮助
+                            </a></li>
+                            <li class="divider mobile-none-767"></li>
                             <li><a href="index.html">
                                 <i class="iconfont icon-tuichu"></i>
                                 退出登录
@@ -286,11 +298,11 @@
     </div>
 </div>
 <!--底部-->
-<footer>
+<!-- 底部 -->
+<footer class="footxwt">
     <div class="footer_warp">
         <a href="#" class="pull-left">
-            <img src="./img/logo_white.png">
-            <p class="visible-xs font-xb">小白</p>
+            <img src="./img/logo1.02.png">
         </a>
         <span href="#" class="pull-right footer-text">Copyright &copy; 2014-2020</span>
     </div>

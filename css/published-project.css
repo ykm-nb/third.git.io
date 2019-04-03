@@ -2,13 +2,9 @@ body{
     background-color: #F0F2F5;
     height: auto;
 }
-/*768*/
-/*768 - 992*/
-/*992 - 1200*/
-/*1200*/
 
 /*768以下*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     /*我发布的项目*/
     .form-project > p{
         display: inline-block;
@@ -47,10 +43,10 @@ body{
         width: 70%;
     }
     .bottom-info > p{
-        margin-bottom: 8px;
+        margin-bottom: 10px;
     }
     .bottom-info > .bottom-btn > button{
-        margin: 0;
+        margin-right: 4px;
         display: inline-block;
         width: 30%;
         font-size: 12px;
@@ -67,13 +63,40 @@ body{
     }
 }
 
+/*400以下*/
+@media screen and (max-width: 500px){
+    .bottom-info > .bottom-btn{
+        width: 100%;
+    }
+}
+
 /*768 -- 992*/
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 767px) and (max-width: 992px){
     .container > form{
         margin-bottom: 20px;
     }
+    .index-head .navbar-default{
+        background-color: #fff;
+        color: #c0c0c0;
+    }
+    .index-head .navbar-header > .navbar-logo > img {
+        display: none;
+    }
+    .index-head .navbar-header > .navbar-logo > img:nth-child(2){
+        display: block;
+    }
+    .index-head .navbar-default .navbar-nav>li>a{
+        color: #c0c0c0;
+    }
+    .index-head .navbar-header > .navbar-brand{
+        color: #c0c0c0;
+    }
+
 
     /*我发布的项目*/
+    .form-project{
+        margin-bottom: 15px;
+    }
     .form-project > .form-status{
         width: 100%;
     }
@@ -95,7 +118,7 @@ body{
         margin-left: 20px;
     }
     .bottom-info > p{
-        margin-bottom: 20px;
+        margin: 10px 0 15px 0;
     }
     .bottom-info > .bottom-btn{
         margin-top: 44px;
@@ -104,11 +127,32 @@ body{
 
 /*992 - 1200*/
 @media screen and (min-width: 992px) and (max-width: 1200px){
+    .index-head .navbar-default{
+        background-color: #fff;
+        color: #c0c0c0;
+    }
+    .index-head .navbar-header > .navbar-logo > img {
+        display: none;
+    }
+    .index-head .navbar-header > .navbar-logo > img:nth-child(2){
+        display: block;
+    }
+    .index-head .navbar-default .navbar-nav>li>a{
+        color: #c0c0c0;
+    }
+    .index-head .navbar-header > .navbar-brand{
+        color: #c0c0c0;
+    }
+
+
     .container > form{
         margin-bottom: 20px;
     }
 
     /*我发布的项目*/
+    .form-project{
+        margin-bottom: 15px;
+    }
     .form-project > .form-status{
         width: 100%;
     }
@@ -129,7 +173,7 @@ body{
         margin-left: 20px;
     }
     .bottom-info > p{
-        margin-bottom: 20px;
+        margin: 10px 0 15px 0;
     }
     .bottom-info > .bottom-btn{
         margin-top: 11px;
@@ -138,11 +182,32 @@ body{
 
 /*1200以上*/
 @media screen and (min-width: 1200px){
+    .index-head .navbar-default{
+        background-color: #fff;
+        color: #c0c0c0;
+    }
+    .index-head .navbar-header > .navbar-logo > img {
+        display: none;
+    }
+    .index-head .navbar-header > .navbar-logo > img:nth-child(2){
+        display: block;
+    }
+    .index-head .navbar-default .navbar-nav>li>a{
+        color: #c0c0c0;
+    }
+    .index-head .navbar-header > .navbar-brand{
+        color: #c0c0c0;
+    }
+
+
     .container > form{
         margin-bottom: 20px;
     }
 
     /*我发布的项目*/
+    .form-project{
+        margin-bottom: 15px;
+    }
     .form-project > .form-status{
         width: 100%;
     }
@@ -163,9 +228,9 @@ body{
         padding: 0 0 0 20px;
     }
     .bottom-info > p{
-        margin-bottom: 20px;
+        margin: 10px 0 15px 0;
     }
-    .bottom-info > .bott    om-btn{
+    .bottom-info > .bottom-btn{
         margin-top: 38px;
     }
     .bottom-info > .bottom-btn > button{
@@ -177,7 +242,6 @@ body{
 .mobile-white{
     z-index: 999;
 }
-
 
 
 /*内容*/
@@ -200,10 +264,6 @@ body{
     box-shadow: 0 1px 2px 0 rgba(31,45,61,.1);
 }
 
-.container > form{
-    /*margin-bottom: 20px;*/
-}
-
 .form-project > p{
     line-height: 30px;
 }
@@ -220,7 +280,6 @@ body{
     background-color: transparent;
     display: inline-block;
     white-space: nowrap;
-    /*line-height: 25px;*/
 }
 
 .project-right > .form-status:hover ~ .form-pulldown,
@@ -282,7 +341,6 @@ body{
 .project-list > .list-top{
     border-bottom: 1px solid #dde3eb;
     margin: 0 1px;
-    /*padding-bottom: 15px;*/
 }
 
 /*项目列表标题*/
@@ -337,23 +395,9 @@ body{
 
 
 /*项目列表底部*/
-.list-bottom{
-    /*padding: 20px 15px 10px;*/
-}
-
 .list-bottom > img{
     padding: 0;
     border-radius: 5px;
-    /*width: 220px;*/
-    /*height: 120px;*/
-}
-
-.list-bottom > .bottom-info{
-    /*padding: 0 0 0 20px;*/
-}
-
-.bottom-info > p{
-    /*margin-bottom: 20px;*/
 }
 
 .bottom-info > p > .i-computer{
@@ -372,15 +416,6 @@ body{
 .bottom-money > .bottom-gray{
     border-right: 1px solid #8796a8;
     padding-right: 10px;
-}
-
-/*状态底部三个按钮*/
-.bottom-info > .bottom-btn{
-    /*margin-top: 42px;*/
-}
-
-.bottom-info > .bottom-btn > button{
-    /*margin-left: 20px;*/
 }
 
 /*编辑按钮*/

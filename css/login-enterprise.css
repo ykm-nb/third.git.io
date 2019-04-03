@@ -24,18 +24,7 @@ a:hover{
         display: block;
         transform: scale(1.2 );
     }
-    /*!*底部*!*/
-    /*.footer_warp{*/
-        /*min-width: 0;*/
-        /*padding: 4px 0;*/
-        /*background-color: #1f2d3d;*/
-    /*}*/
-    /*.footer_warp > a > img, .footer_warp > span{*/
-        /*display: none;*/
-    /*}*/
 }
-
-
 
 /*大盒子*/
 .container{
@@ -135,11 +124,6 @@ form > div > .warn{
     font-size: 14px;
     transform: translate(0,1px);
 }
-
-/*form > label{*/
-    /*display: block;*/
-    /*font-size: 0;*/
-/*}*/
 
 .form-group > input{
     height: 45px;
