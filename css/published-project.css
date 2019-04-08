@@ -18,6 +18,9 @@ body{
     .project-right > .btn-publish{
         padding: 6px 8px;
     }
+    .project-right > .form-pulldown{
+        right: 106px;
+    }
 
     /*项目列表头部*/
     .project-list{
@@ -113,6 +116,9 @@ body{
     .project-right > .btn-publish{
         padding: 6px 20px;
     }
+    .project-right > .form-pulldown{
+        right: 130px;
+    }
 
     /*项目列表头部*/
     .project-list{
@@ -169,6 +175,9 @@ body{
     .project-right > .btn-publish{
         padding: 6px 20px;
     }
+    .project-right > .form-pulldown{
+        right: 130px;
+    }
 
     /*项目列表头部*/
     .project-list{
@@ -223,6 +232,9 @@ body{
     }
     .project-right > .btn-publish{
         padding: 6px 20px;
+    }
+    .project-right > .form-pulldown{
+        right: 130px;
     }
 
     /*项目列表头部*/
