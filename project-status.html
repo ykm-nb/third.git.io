@@ -292,14 +292,14 @@
 
 <script>
     $(function () {
-        $(".remind > p").mousedown(function () {
+        $(".remind > p").on("touchstart", function () {
             $(this).css({
                 whiteSpace: "initial",
                 textOverflow: "initial",
                 overflow: "auto"
             })
         });
-        $(".remind > p").mouseup(function () {
+        $(".remind > p").on("touchend",function () {
             $(this).css({
                 whiteSpace: "nowrap",
                 textOverflow: "ellipsis",

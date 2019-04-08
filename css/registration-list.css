@@ -47,6 +47,10 @@ h1,h2,h3,h4,h5,h6{
     .main > .main-bottom{
         margin: 0 10px;
     }
+    /*头部右侧*/
+    .developer-pulldown {
+        right: 25px;
+    }
     /*头像*/
     .bottom-left > .head-portrait{
         display: block;
@@ -153,6 +157,10 @@ h1,h2,h3,h4,h5,h6{
         border: 1px solid #E1E7EF;
         margin: 34px;
     }
+    /*头部右侧*/
+    .developer-pulldown {
+        right: 40px;
+    }
     /*底部左侧*/
     .main > .main-bottom > .bottom-left{
         width: 100%;
@@ -161,9 +169,6 @@ h1,h2,h3,h4,h5,h6{
         padding: 30px 0;
         width: 100%;
         text-align: left;
-    }
-    .bottom-right > button{
-        /*display: block;*/
     }
     .bottom-right > i,
     .bottom-right > button{
@@ -236,6 +241,10 @@ h1,h2,h3,h4,h5,h6{
         padding: 25px 0 25px 25px;
         border: 1px solid #E1E7EF;
         margin: 34px;
+    }
+    /*头部右侧*/
+    .developer-pulldown {
+        right: 40px;
     }
     /*底部左侧*/
     .main > .main-bottom > .bottom-left{
@@ -315,6 +324,10 @@ h1,h2,h3,h4,h5,h6{
         padding: 25px;
         border: 1px solid #E1E7EF;
         margin: 34px;
+    }
+    /*头部右侧*/
+    .developer-pulldown {
+        right: 40px;
     }
     /*底部左侧*/
     .main > .main-bottom > .bottom-left{
@@ -458,7 +471,7 @@ h1,h2,h3,h4,h5,h6{
 .developer-pulldown{
     position: absolute;
     top: 50px;
-    right: 45px;
+    /*right: 22px;*/
     z-index: 2;
     padding: 5px 0;
     width: 126px;
