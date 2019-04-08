@@ -3,19 +3,13 @@ html{
 }
 body{
     background-color: #F0F2F5;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 h1,h2,h3,h4,h5,h6{
     margin: 0;
 }
 
-/*375以下*/
-@media screen and (max-width: 375px){
-    .item-hide{
-        display: none;
-    }
-}
 
 /*768以下*/
 @media screen and (max-width: 768px){
@@ -37,15 +31,11 @@ h1,h2,h3,h4,h5,h6{
     }
     /*所有线*/
     .step > div > .line{
-        width: .38rem;
-        /*margin: 0;*/
+        width: 60px;
     }
 
 
     /*内容*/
-    .container{
-        /*padding: 2px 0;*/
-    }
     .container > .main{
         margin-bottom: 80px;
         padding-bottom: 50px;
@@ -79,6 +69,17 @@ h1,h2,h3,h4,h5,h6{
     /*锚点*/
     .anchor{
         display: none;
+    }
+}
+
+/*375以下*/
+@media screen and (max-width: 375px){
+    .item-hide{
+        display: none;
+    }
+    /*所有线*/
+    .step > div > .line{
+        width: 42px;
     }
 }
 
